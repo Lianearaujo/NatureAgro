@@ -1,40 +1,51 @@
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <!-- Bootstrap CSS -->
-  <link href="css/login.css" rel="stylesheet">
 
-  <title>Hello, world!</title>
-</head>
+    <title>Login</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="css/login.css" rel="stylesheet">
+
+  </head>
 <body>
 
-  <!--
-    you can substitue the span of reauth email for a input with the email and
-    include the remember me checkbox
-    -->
-  <div class="container">
-    <div class="card card-container login">
-      <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-      <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
-      <p id="profile-name" class="profile-name-card"></p>
-      <form class="form-signin">
-        <span id="reauth-email" class="reauth-email"></span>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
-      </form>
-      <!-- /form -->
+  <div class="animated slideInLeft" id="square">    
+  <div class="animated bounceInUp" id="leftSquare">
+    <div class="animated bounceInUp" id="circle">
+    <img class="brand img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/branding.png" />
+    
     </div>
-    <!-- /card-container -->
-  </div>
-  <!-- /container -->
+            
+<h2 id="title">Welcome to Divider</h2>
+    <h3 id="subtitle">You are moments away from your first adventure.</h3>
+  
+ </div>   
+    
+    <div class="animated bounceInDown" id="rightSquare">
+      <div id="container">
+      <h1 class="signup">Sign Up </h1>
+      <form className="animated slideInLeft">               
+                  <input class="optin" type="text" placeholder="name" />
+     <input class="optin" type="text" placeholder="email" />   
+      <input class="optin" type="password" placeholder="password" /> </form>       
+       <button class="animated infinite pulse button btn btn-info">
+     <span><i class="fa fa-twitter" aria-hidden="true"></i></span><span id="twitter">Sign in with Twitter</span>
+   </button>
+      <h3 id="footer">By continuing you agree to our <span id="terms">terms & conditions.</span></h3>
+      </div>   
+      
+ </div> 
+    
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</div>
+      
+
 </body>
+
+</html>
