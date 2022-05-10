@@ -115,11 +115,18 @@ body{
   }
   
   .button{
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-    z-index: 3;
-    background: #2BA0EE;
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #1504fa;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
   }
   
   #twitter{
