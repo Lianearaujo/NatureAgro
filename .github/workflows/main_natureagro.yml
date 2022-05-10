@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'NatureAgro'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B67E8459667B41669C94262DE1494D9C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_055A2032839045B786B89D200D95F517 }}
           package: .
